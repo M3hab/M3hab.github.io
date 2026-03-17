@@ -1,29 +1,49 @@
 <!DOCTYPE html>
-
 <head>
     <title>DARKSIDE</title>
     <style>
         body {
-          margin: 0;
-          padding: 0;
-          background-image: url(gifs/rain.gif);
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-attachment: fixed; /* Optional: makes it stay in place when scrolling */
-          min-height: 100vh;
-             }
-             .container {
-         display: flex;
-          justify-content: center; /* Horizontal centering */
-           align-items: center; /* Vertical centering */
-           height: 300px; /* Container needs a height for vertical centering */
-             }
+            margin: 0;
+            padding: 0;
+            background-image: url(gifs/rain.gif);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; /* Adds some space above and below */
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .join-link {
+            text-align: center;
+            color: greenyellow;
+        }
+        
+        hr {
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;color: greenyellow;"><span style="color: red;">WELCOME</span> TO THE DARK SIDE</h1>
-    <img class="container" src="gifs/hacker.gif"><h1><a href="joinus.html" style="color: greenyellow; text-align: center;">JOIN US NOW</a></h1><hr>
+    <h1 style="color: greenyellow;"><span style="color: red;">WELCOME</span> TO THE DARK SIDE</h1>
+    
+    <div class="container">
+        <img src="gifs/hacker.gif" alt="Hacker gif">
+    </div>
+    
+    <h1 class="join-link"><a href="joinus.html" style="color: greenyellow;">JOIN US NOW</a></h1>
+    
+    <hr>
+    
     <div style="background-color: black;">
         <a style="color: aqua;" href="sexyboy.html" target="_parent"><big>SEXYBOY.COM our latest <span style="color: red;">website</span></big></a>
     </div>
